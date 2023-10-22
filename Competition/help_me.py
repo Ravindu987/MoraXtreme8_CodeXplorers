@@ -23,6 +23,7 @@ for test in range(test_cases):
     subsets.append(codeword[:2])
     subsets.append(codeword[0])
     subsets.append(codeword[1])
+
     subsets = set(subsets)
     intial = codeword[:2]
     final = codeword[2:]
